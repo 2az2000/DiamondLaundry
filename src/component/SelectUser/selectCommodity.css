@@ -1,0 +1,9 @@
+.selectuser{
+    width: 15rem !important;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.selectuser ::placeholder{
+ font-size: 0.2 !important;
+}

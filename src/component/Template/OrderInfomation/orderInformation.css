@@ -1,0 +1,13 @@
+.orderInformation-wrapper{
+    padding-right: 1rem;
+    display:flex;
+    align-items: center;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+   
+}

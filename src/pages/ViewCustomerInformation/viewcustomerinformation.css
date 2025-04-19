@@ -1,0 +1,17 @@
+.viewcustomerWrapper {
+  width: 95%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.viewcustomer-text {
+  font-family: "IRANSansX Regular";
+
+  text-align: right;
+
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}

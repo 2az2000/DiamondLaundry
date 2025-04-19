@@ -1,0 +1,103 @@
+.orderManeger {
+  /* padding-right: 1rem; */
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.orderManeger-title{
+  font-family: "IRANSansX DemiBold";
+font-size: 20px;
+font-weight: 700;
+line-height: 47.48px;
+text-align: right;
+color:  #484848;
+position: relative;
+margin-top: 2rem;
+
+
+
+
+}
+
+.orderManeger-title::after{
+
+content: "";
+position: absolute;
+height: 2rem;
+width: 2rem;
+background-color: aqua;
+right: -2.3rem;
+top: 0.9rem;
+width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
+
+background: #393E7F;
+
+
+
+}
+
+.wrapper1 {
+  background-color: #fff;
+  height: fit-content;
+}
+
+.wrapper2 {
+  background-color: #fff;
+  height: fit-content;
+  margin-top: 5rem;
+}
+
+.orderManeger-subtitle{
+  margin-bottom: 1.2rem;
+}
+
+.btn-order-submit{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-order-submit button{
+  width: 238px;
+  height:56px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  outline: none;
+  font-family: IRANSans;
+font-size: 20px;
+font-weight: 500;
+line-height: 33.91px;
+text-align:center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 2rem;
+margin-top: 2rem;
+cursor: pointer;
+
+  
+}
+
+.btn-order-submit button:first-child{
+  background:  #393E7F;
+  border: none;
+  color: white;
+  margin-left: 2rem;
+
+
+  
+}
+
+.btn-order-submit button:last-child{
+  border: 2px solid  #393E7F;
+  background-color: transparent;
+  color: #393E7F;
+
+  
+}

@@ -1,0 +1,122 @@
+.table-communication-wrapper table{
+    border-collapse: collapse;
+}
+
+
+
+.th-table-communication ,.td-table-communication{
+    border: 1px solid;
+    width: 100vw;
+height: 56px;
+padding: 16px 10px 16px 10px;
+gap: 10px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+
+}
+
+
+
+.th-table-communication{
+    font-family: IRANSans;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.005em;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  #090B2A;
+text-align: center;
+background:  #EAECF0;
+border-width: 0px  1px  1px  0px;
+
+border-style: solid;
+
+border-color:  #BEBEBE;
+
+
+
+
+}
+
+.table-communication-wrapper{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+
+}
+.td-table-communication{
+    border-width: 0px 1px 1px 1px;
+
+    border-style: solid;
+    
+    border-color:  #BEBEBE;
+}
+
+.td-table-communication input{
+width: 100%;
+height: 100%;
+outline: none;
+border: none;
+
+
+
+}
+
+.td-table-communication input::placeholder{
+   text-align: center;
+    }
+
+
+    .btn-add-table-communication{
+        border: none;
+        outline: none;
+        background-color: transparent;
+       
+        margin-top: 1.5rem;
+   
+        margin-bottom: 8rem;
+        cursor: pointer;
+    }
+
+
+    .btn-add-table-communication svg{
+      font-size: 1.5rem;
+     color:  #393E7F;
+
+    }
+
+    .btn-add-table-communication span{
+        font-family: IRANSans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.005em;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #393E7F;
+margin-top:1rem;
+
+
+
+    }
+
+    .div-error-communication{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .wrap-table-communication ,   .wrap-table-communication1{
+        display: flex;
+        flex-direction: column;
+    } */
+.erorr-handele1{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin-top: 0.2rem;
+}

@@ -1,0 +1,77 @@
+const name = [
+  {
+    id: 1,
+    title: "نام",
+    type: "text",
+    shape: "input",
+    placeholder: " نام مشتری را واردکنید",
+    register: "first_name",
+  },
+
+  {
+    id: 2,
+    title: "نام خانوادگی",
+    type: "text",
+    shape: "input",
+    placeholder: "نام خانوادگی مشتری را وارد کنید  ",
+    register: "last_name",
+  },
+  {
+    id: 3,
+    title: "کدملی",
+    type: "number",
+    shape: "input",
+    placeholder: "کد ملی مشتری را وارد کنید",
+    register: "id_code",
+  },
+  {
+    id: 4,
+    title: "جنسیت",
+    shape: "select",
+    register: "gender",
+    value1: "زن",
+    value2: "مرد",
+  },
+  {
+    id: 5,
+    title: "ویزیتورها",
+    shape: "select",
+    register: "visitor",
+    value1: "آیتم1",
+    value2: "آیتم2",
+  },
+  {
+    id: 6,
+    title: "نحوه آشنایی",
+    shape: "select",
+    register: "acquaintance_type",
+    value1: "آیتم1",
+    value2: "آیتم2",
+  },
+  {
+    id: 7,
+    title: "کد آسان",
+    type: "number",
+    shape: "input",
+    placeholder: "کد آسان مشتری را وارد کنید",
+    register: "easycode",
+  },
+  {
+    id: 8,
+    title: "کد اقتصادی",
+    type: "number",
+    shape: "input",
+    placeholder: "کد اقتصادی مشتری را وارد کنید",
+    register: "economic_code",
+  },
+  {
+    id: 9,
+    title: "گروه بندی",
+    shape: "select",
+    register: "grouping",
+    value1: "آیتم1",
+    value2: "آیتم2",
+  },
+];
+
+export default name;

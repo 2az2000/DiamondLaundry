@@ -1,0 +1,61 @@
+.input-information{
+    width: 33vw;
+    height: 54px;
+    border-radius: 4px ;
+    border: 1px solid black;
+    display: flex;
+    border: 1px solid  #7F82AC;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    -webkit-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -o-border-radius: 4px ;
+
+}
+
+.input-information span{
+   
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.005em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-family: "IRANSansX DemiBold";
+}
+
+.input-information input , .input-information select {
+   height: 100%;
+outline: none;
+   width: 72%;
+   background-color: transparent;
+   border: none;
+   border-right: 1px solid red;
+   border-right: 1px solid  #BEBEBE;
+}
+
+.input-information input::placeholder{
+    padding-right: 1rem;
+
+    color:  #808080;
+    font-family: IRANSans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.005em;
+text-align: right;
+
+
+  
+
+
+}
+

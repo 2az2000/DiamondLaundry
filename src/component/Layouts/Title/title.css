@@ -1,0 +1,19 @@
+.titleHeader {
+    font-family:Behdad-Regular;
+font-size: 1.3rem;
+font-weight: 500;
+line-height: 35px;
+
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+/* margin-top: 2rem; */
+/* margin-bottom: 1.5rem; */
+color:  #2E2E2E;
+
+
+}
+
+.m-t{
+    /* margin-top: 1.5rem; */
+}

@@ -1,0 +1,118 @@
+.table-item {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+
+  border-collapse: collapse;
+  /* border-spacing: 0.1px;
+    
+  border-color:  #EAECF0;
+  
+  
+  border-style: solid; */
+  border-collapse: collapse;
+}
+.tableData{
+   min-height: 80vh; 
+   display: flex;
+   flex-direction: column;
+   justify-self: start;
+   align-items: start;
+   padding-top: 1rem;
+ 
+   
+}
+
+.th-table-Ip {
+  height: 50px;
+}
+
+.td-table-Ip
+ {
+  
+
+
+
+ 
+  border-color: #EAECF0;
+  
+  border-width: 0px 0.1px 0.1px  0px; 
+  border-style: solid;  
+
+
+ padding-right: 0.8rem; 
+  text-align: right;
+
+}
+
+.table-item td:first-child{
+  border-width: 0px 0px 0.1px  0px; 
+}
+
+.table-item th:first-child{
+  border-width: 0px 0px 0.1px  0px; 
+}
+
+.th-table-Ip{
+
+  padding-right: 0.8rem; 
+  text-align: right;
+  border-width: 0px 0.1px 0.1px  0px; 
+  border-color:#EAECF0;
+  
+  
+  border-style: solid;  
+}
+
+.tr-table-Ip , .td-table-Ip{
+  height: 56px;
+}
+.tableData {
+  background-color: #fff;
+  display: flex;
+
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.th-table-Ip {
+  font-family: "IRANSansX DemiBold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.td-loder{
+  width: 500px;
+  height:100%;
+}
+.span-edit{
+
+
+  border: 1.4px solid  rgba(128, 128, 128, 0.829);
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

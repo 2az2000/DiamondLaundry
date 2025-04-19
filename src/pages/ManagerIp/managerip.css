@@ -1,0 +1,123 @@
+.managerIp {
+  width: 90%;
+   
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.managerip-title,
+.managerip-text {
+
+  font-family: "IRANSansX Regular";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 47.48px;
+  text-align: right;
+  margin-top: 2rem;
+}
+.managerip-title span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.managerip-btnAdd span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.managerip-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.managerip-searchInput {
+  width: 320px;
+  height: 48px;
+  background-color: #fff;
+  padding: var(--SpacingMD12) var(--SpacingLG16) var(--SpacingMD12)
+    var(--SpacingLG16);
+  gap: 1px;
+  border-radius: 0.3rem;
+  border: 1px solid #bebebe;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.managerip-searchInput input {
+  height: 100%;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+
+.managerip-searchInput input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.managerip-wrapperSecond {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.managerip-btnAdd {
+  width: 213px;
+  height: 48px;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 0.3rem;
+  background: #393e7f;
+  color: #fff;
+  font-family: IRANSans;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  padding-right: 0.8rem;
+  text-align: center;
+
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  
+}
+
+.managerip-btnAdd svg {
+  margin-right: 3rem;
+}
+
+.page-btn {
+  width: 40px;
+  height: 40px;
+  /* background-color: #393E7F; */
+  border-radius: 8px;
+  border: 1px solid #8b8d92;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.wrapperTablepage {
+  background-color: #fff;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.wrapperPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}

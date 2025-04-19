@@ -1,0 +1,26 @@
+.btn-submit{
+    width: 19rem;
+    height: 2.8rem;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: var(--bg-second);
+    margin-top: 1rem;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    cursor: pointer;
+    font-family:Behdad-Regular;
+    position: relative;
+    z-index: 3;
+    width: 427px;
+    height: 48px;
+}
+
+/* .btn-submit:hover{
+ 
+    background-color: var(--bg-primary);
+    
+} */

@@ -1,0 +1,45 @@
+.add-user-title {
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: start;
+  align-items: center;
+  margin-right: 19rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.add-user-title p {
+  color: #393e7f;
+}
+
+.manger-page {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+  gap: 0;
+
+  /* background-image: url(../../ui-assets/14140431_5434646\ 1.png); */
+}
+
+.Side-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+  background-color: var(--bg-ma);
+  height: 100%;
+  position: relative;
+  padding: 30px;
+  width: 100%;
+}
+
+.Side-first {
+  width: 300px;
+  flex-shrink: 0;
+
+  z-index: 2;
+}

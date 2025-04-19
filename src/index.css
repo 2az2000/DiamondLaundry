@@ -1,0 +1,36 @@
+:root{
+  --bg-primary: #EAECF0;
+  --bg-second:#393E7F;
+  --bg-color: #23466D;
+  --bg-side:#808080;
+  --bg-ma: #DBDBDB;
+
+  --active-side: #090B2A;
+
+
+
+
+}
+
+a{
+  text-decoration: none;
+}
+.loadingOverlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

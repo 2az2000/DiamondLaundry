@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"Behdad-Regular";
+    src: url("../fonts/Behdad-Regular.otf");
+    
+  }
+  @font-face {
+    font-family: "Behdad-Regular-w";
+    src: url("../fonts/Behdad-Regular.woff");
+   
+  }
+
+  @font-face{
+    font-family: "IRANSansX DemiBold";
+    src: url("../fonts/iransansx/IRANSansXDemiBold.ttf");
+  }
+
+  @font-face{
+    font-family: "IRANSansX Regular";
+    src: url("../fonts/iransansx/IRANSansXRegular.ttf");
+  }

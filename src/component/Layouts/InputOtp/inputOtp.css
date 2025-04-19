@@ -1,0 +1,44 @@
+.input-otp{
+    width: 54px;
+    height: 54px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: '4px';
+    -moz-border-radius: '4px';
+    -ms-border-radius: '4px';
+    -o-border-radius: '4px';
+
+}
+.text-request{
+    margin: 1rem 0;
+    
+}
+
+.wrapper-otp{
+    display: flex;
+     justify-content: center;
+     direction: "ltr";
+        direction: ltr;
+}
+
+.time-otp{
+    margin: 0.5rem 0;
+  
+
+}
+
+.time-otp-min{
+  font-family: Behdad-Regular;
+  
+
+}
+
+.time-otp-text{
+    color:  #BEBEBE;
+    color: black;
+    margin-top: 0.7rem;
+
+}

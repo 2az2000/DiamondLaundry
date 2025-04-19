@@ -1,0 +1,28 @@
+.eye-password {
+  cursor: pointer;
+}
+
+input::placeholder {
+  text-align: right;
+  color: #808080;
+}
+
+.remberPassword {
+  color: var(--bg-second);
+  color: #393E7F;
+  display: flex;
+  font-family:Behdad-Regular-w;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 27.13px;
+  text-align: right;
+  margin-left: auto;
+  cursor: pointer;
+  text-decoration:none ;
+}
+
+.error-login{
+    color: red;
+    font-size: 1rem;
+    font-weight: 500;
+}

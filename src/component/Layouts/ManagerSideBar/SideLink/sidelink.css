@@ -1,0 +1,141 @@
+.arrow {
+  font-size: 2rem;
+  transition: 0.5s ease-in-out;
+}
+
+.side-link-title {
+  font-family: "IRANSansX DemiBold";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.13px;
+  text-align: right;
+
+  text-decoration-skip-ink: none;
+  color: var(--bg-side);
+}
+.side-wrapper-container {
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  margin-left: 1.5rem;
+  width: 86%;
+  justify-content: space-between;
+}
+
+.side-wrapper-first {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.side-wrapper-first img {
+  margin-left: 0.5rem;
+  color: var(--bg-side);
+}
+.side-wrapper-first img svg {
+  margin-left: 0.5rem;
+  color: var(--bg-side);
+  background-color: aqua;
+}
+.show {
+  transition: height 0.7s ease-in-out;
+  height: 0px;
+}
+
+.wrapper-show {
+  transition: height 0.7s ease-in-out;
+  height: 150px;
+}
+
+.arrow-up,
+.arrow-down {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.link-side-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.7rem;
+  overflow: hidden;
+}
+.link-side-wrapper a {
+  margin-top: 1.2rem;
+  color: var(--bg-side);
+  font-family: "IRANSansX Regular";
+  transition: width 0.7s ease-in-out;
+  -webkit-transition:  transform 0.5s ease-in ;
+  -moz-transition:   transform 0.5s ease-in;
+  -ms-transition:  transform 0.5s ease-in ;
+  -o-transition:   transform 0.5s ease-in;
+  position: relative;
+  width: 12rem;
+  transition:  transform 0.5s ease-in ;
+}
+
+.link-side-wrapper a:active {
+  transform:translateX(-50px) ;
+  -webkit-transform:translateX(-50px) ;
+  -moz-transform:translateX(-50px) ;
+  -ms-transform:translateX(-50px) ;
+  -o-transform:translateX(-50px) ;
+}
+
+.arrow-down {
+  color: var(--bg-side);
+}
+
+.active {
+  /* display: flex;
+    justify-content: center;
+    width: 309px;
+height: 48px;
+padding: 12px 16px 12px 16px;
+gap: 12px;
+border: 0px 0px 0px 8px;
+background:  #EAECF0;
+margin-right: 0.7rem !important;
+
+color: #011730 !important;
+
+margin-right: -2rem !important; */
+}
+navlink:active {
+}
+.active {
+  
+  color: blue;
+
+  right: -2rem;
+
+  /* margin-right: 0.7rem !important; */
+  /* color: #011730 !important;
+  border-left: 8px solid #011730; */
+
+
+  content: "";
+  position: absolute;
+  border: 0px 0px 0px 8px;
+  width: 18rem !important;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #EAECF0;
+  border-left: 8px solid #011730;
+
+}
+
+.changeColor1 p {
+  color: var(--active-side);
+}
+
+.changeColor1 img {
+  filter: drop-shadow(0 0 0 black);
+}
+
+.changeColornone .imgGray {
+  filter: opacity(0.4) drop-shadow(0 0 0 gray);
+  -webkit-filter: opacity(0.4) drop-shadow(0 0 0 gray);
+}

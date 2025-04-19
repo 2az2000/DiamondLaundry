@@ -1,0 +1,77 @@
+.user-information {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+}
+
+
+.btn-information {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.btn-information p {
+  width: 12rem;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  background: #393e7f;
+/* font-family: ""; */
+border-radius: var(--Spacing0) var(--Spacing0) var(--SpacingXS4) var(--SpacingXS4);
+opacity: 0px;
+border-right: 5px solid  #DBDBDB ;
+border-bottom: 5px solid  #DBDBDB;
+border-left: 5px solid  #DBDBDB;
+font-family: "IRANSansX DemiBold";
+width: 222px;
+height: 56px;
+top: 150px;
+left: 446px;
+gap: 0px;
+border-radius: var(--SpacingXS4);
+opacity: 0px;
+font-family: IRANSans;
+font-size: 20px;
+font-weight: 400;
+line-height: 40.7px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+
+
+}
+
+.selected-choose{
+  padding-right: 0.2rem;
+  font-family: IRANSans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.005em;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: red !important;
+
+}
+.padding-wrapper{
+  padding-right: 5px;
+}
+
+.selected-option-manager option:first-child{
+  color: blue;
+
+  font-size: 20rem;
+}
